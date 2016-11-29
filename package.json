@@ -1,0 +1,39 @@
+{
+  "author": {
+    "name": "Alex Omar",
+    "email": "contacto@alexomar.com"
+  },
+  "name": "pgs",
+  "description": "Pay with PGS - Mitec",
+  "version": "0.0.1",
+  "homepage": "https://github.com/mitbots/pgs",
+  "keywords": [
+    "pgs",
+    "payment",
+    "credit",
+	"card",
+	"gateway",
+	"pay"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mitbots/pgs.git"
+  },
+  "engines": {
+    "node": ">= v4.0"
+  },
+  "dependencies": {
+  },
+  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/mitbots/pgs/issues"
+  },
+  "maintainers": [
+    {
+      "name": "Alex Omar",
+      "email": "contacto@alexomar.com"
+    }
+  ],
+  "directories": {},
+  "readme": "ERROR: No README data found!"
+}

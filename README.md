@@ -13,21 +13,21 @@ npm install pgs --save
 var pgs = require('pgs');
  
 try{
-	/*Set the endpoint (OPTIONAL)*/
-	pgs.setEndpoint("https://dev5.mitec.com.mx/p/gen");
+	/*Set the endpoint (OPTIONAL) - Use to change between production (default) and sandbox*/
+	pgs.setEndpoint("https://sandbox.wizipay.com/");
 	
 	/* Cipher config for communication between the app and the gateway (REQUIRED)*/
     pgs.setCipher({
-        "id":"9265654571",
-        "key":"CB0DC4887DD1D5CEA205E66EE934E430"
+        "id":"0000000001",
+        "key":"82A15AEEBFFCCC911F798BB6CFCCE7E2"
     });
 	
 	/* Your credentials (REQUIRED)*/
 	pgs.setBussiness({
-        "id_company":"0002",
-        "id_branch":"8710",
-        "user":"0002PEOP",
-        "pwd":"TEMPORAL1"
+        "id_company":"0001",
+        "id_branch":"1000",
+        "user":"DEMO",
+        "pwd":"DEMO01"
     });
  
 	/* Description/label of the payment (REQUIRED)*/

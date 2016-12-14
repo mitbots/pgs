@@ -14,7 +14,7 @@ var pgs = require('pgs');
  
 try{
 	/*Set the endpoint (OPTIONAL) - Use to change between production (default) and sandbox*/
-	pgs.setEndpoint("https://sandbox.wizipay.com/");
+	pgs.setEndpoint("https://sandbox.mit.com.mx/");
 	
 	/* Cipher config for communication between the app and the gateway (REQUIRED)*/
     pgs.setCipher({
